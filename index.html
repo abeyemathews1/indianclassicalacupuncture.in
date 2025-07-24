@@ -2,109 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Indian Classical Acupuncture - Nalanchira</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fefefe;
+      font-family: 'Georgia', serif;
+      background-color: #f9f8f6;
     }
     .hero {
-      background: linear-gradient(to right, #a8edea, #fed6e3);
-      padding: 60px 0;
-      text-align: center;
-    }
-    .hero h1 {
-      font-weight: bold;
-      color: #3a3a3a;
+      background: url('https://i.imgur.com/Ea7NxXM.jpg') center/cover no-repeat;
+      height: 80vh;
+      color: white;
+      text-shadow: 2px 2px 6px #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
     .section-title {
-      color: #800000;
-      font-weight: 600;
+      font-weight: bold;
+      font-size: 2rem;
       margin-bottom: 20px;
     }
-    .contact-box {
-      background-color: #f8f9fa;
-      padding: 20px;
-      border-left: 5px solid #800000;
-      border-radius: 8px;
-    }
-    .whatsapp-button {
-      background-color: #25D366;
+    .btn-whatsapp {
+      background-color: #25d366;
       color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 30px;
-      display: inline-block;
-      margin-top: 10px;
+      border: none;
+    }
+    .btn-whatsapp:hover {
+      background-color: #1ebe5d;
     }
     footer {
-      background-color: #800000;
-      color: white;
+      background: #222;
+      color: #ccc;
       padding: 20px 0;
-      text-align: center;
     }
   </style>
 </head>
 <body>
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="container">
-    <h1>Indian Classical Acupuncture</h1>
-    <p class="lead">Ancient Healing, Modern Wellness — Nalanchira, Thiruvananthapuram</p>
-  </div>
-</section>
+  <!-- Hero Section -->
+  <header class="hero text-center">
+    <h1 class="display-4">Indian Classical Acupuncture</h1>
+    <p class="lead">Ancient Healing for Modern Times</p>
+    <a href="https://wa.me/918281353350" class="btn btn-whatsapp mt-3" target="_blank">📞 WhatsApp Consultation</a>
+  </header>
 
-<!-- About Section -->
-<section class="container my-5">
-  <h2 class="section-title">Why Choose Us?</h2>
-  <p>We follow the timeless tradition of Indian Classical Acupuncture, rooted in ancient wisdom and refined for modern-day healing. Our one-touch, root-cause approach offers lasting relief for physical and emotional ailments.</p>
-</section>
+  <!-- About Section -->
+  <section class="container py-5">
+    <h2 class="section-title text-center">About the Clinic</h2>
+    <p class="text-center">Located in Nalanchira, Thiruvananthapuram, we offer healing through one of the oldest known medical sciences – Acupuncture. Our classical Indian techniques blend seamlessly with modern clinical knowledge to restore health naturally.</p>
+  </section>
 
-<!-- Services Section -->
-<section class="container my-5">
-  <h2 class="section-title">Our Treatments</h2>
-  <div class="row">
-    <div class="col-md-6 mb-4">
-      <h4>Joint Pain & Arthritis</h4>
-      <p>We treat the root cause of inflammation by restoring Qi (energy) flow. This natural healing approach reduces pain, stiffness, and improves joint mobility.</p>
+  <!-- Services Section -->
+  <section class="container py-5 bg-light">
+    <h2 class="section-title text-center">Our Treatments</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>🦴 Joint Pain & Arthritis</h5>
+        <p>Addressing root inflammation and Qi blockage for long-term relief through gentle, precise acupuncture.</p>
+      </div>
+      <div class="col-md-6">
+        <h5>🧠 Mental Health Support</h5>
+        <p>Alleviate stress, anxiety, and depression through the One-Point Touch system for emotional harmony.</p>
+      </div>
+      <div class="col-md-6">
+        <h5>💤 Insomnia Relief</h5>
+        <p>Restore deep natural sleep cycles by balancing internal energy systems.</p>
+      </div>
+      <div class="col-md-6">
+        <h5>⚖️ Hormonal & Digestive Disorders</h5>
+        <p>Classical meridian healing to correct metabolism and endocrine function.</p>
+      </div>
     </div>
-    <div class="col-md-6 mb-4">
-      <h4>Mental Health & Stress</h4>
-      <p>Effective for stress, anxiety, depression, and insomnia. Using a gentle one-point touch method, we help restore inner peace and emotional balance.</p>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="container py-5">
+    <h2 class="section-title text-center">Testimonials</h2>
+    <blockquote class="blockquote text-center">
+      <p>"After months of pain, one touch healed my knees. Thank you!"</p>
+      <footer class="blockquote-footer">Asha R., Vattiyoorkavu</footer>
+    </blockquote>
+    <blockquote class="blockquote text-center">
+      <p>"My anxiety vanished in just a few sessions. This is divine healing."</p>
+      <footer class="blockquote-footer">Joseph K., Kazhakkoottam</footer>
+    </blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="container py-5 bg-light">
+    <h2 class="section-title text-center">Visit Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p><strong>Address:</strong><br>
+          Nalanchira, Thiruvananthapuram, Kerala – 695015
+        </p>
+        <p><strong>Phone:</strong> <a href="tel:+918281353350">+91 82813 53350</a></p>
+        <p><strong>Clinic Timings:</strong><br>
+          Monday, Tuesday, Wednesday: 5:30 PM – 6:30 PM<br>
+          Saturday: 3:00 PM – 5:30 PM<br>
+          Closed: Thursday, Friday, Sunday
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <a href="https://wa.me/918281353350" class="btn btn-whatsapp btn-lg" target="_blank">💬 Chat on WhatsApp</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Clinic Timings Section -->
-<section class="container my-5">
-  <h2 class="section-title">Clinic Timings</h2>
-  <div class="contact-box">
-    <p><strong>Monday, Tuesday, Wednesday:</strong> 5:30 PM – 6:30 PM</p>
-    <p><strong>Saturday:</strong> 3:00 PM – 5:30 PM</p>
-    <p><strong>Closed:</strong> Thursday, Friday, Sunday</p>
-  </div>
-</section>
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>&copy; 2025 Indian Classical Acupuncture | Abey E Mathews | Nalanchira</p>
+  </footer>
 
-<!-- Contact Section -->
-<section class="container my-5">
-  <h2 class="section-title">Book Your Appointment</h2>
-  <div class="contact-box">
-    <p><strong>📍 Location:</strong> Nalanchira, Thiruvananthapuram</p>
-    <p><strong>📞 Call:</strong> <a href="tel:+918281353350">+91 82813 53350</a></p>
-    <a class="whatsapp-button" href="https://wa.me/918281353350" target="_blank">
-      📲 Message on WhatsApp
-    </a>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer>
-  <p>&copy; 2025 Indian Classical Acupuncture Clinic, Nalanchira. All Rights Reserved.</p>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
